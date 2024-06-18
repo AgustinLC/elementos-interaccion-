@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <button class="btn">Enviar</button>
+    <select class="select">
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option>
+    </select>
+    <table class="table">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Lautaro</td>
+            <td>Cabrera</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Arnaldo</td>
+            <td>Urizar</td>
+            <td>55</td>
+        </tr>
+    </table>
+    <input type="text" class="input-text" placeholder="Ingrese su nombre">
+    <img src="./img/imagen_banco.avif" alt="Descripción de la imagen" class="img">
+    <button class="btn btn-kids">Jugar</button>
+    <select class="select select-kids">
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option>
+    </select>
+    <table class="table table-kids">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Lautaro</td>
+            <td>Cabrera</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>Arnaldo</td>
+            <td>Urizar</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <input type="text" class="input-text input-text-kids" placeholder="Escribe tu nombre">
+    <img src="./img/imagen_niños.jpg" alt="Descripción de la imagen" class="img img-kids">
+    <button class="btn btn-social">Publicar</button>
+    <select class="select select-social">
+        <option value="opcion1">Amigos</option>
+        <option value="opcion2">Público</option>
+        <option value="opcion3">Privado</option>
+    </select>
+    <table class="table table-social">
+        <tr>
+            <th>Nombre</th>
+            <th>Publicación</th>
+            <th>Fecha</th>
+        </tr>
+        <tr>
+            <td>Lautaro Cabrera</td>
+            <td>Hoy tuve un día maravilloso en el parque con mis amigos. El clima estaba perfecto y pudimos hacer un
+                picnic junto al lago. ¡Definitivamente necesitaba ese descanso!</td>
+            <td>12 de junio, 2024</td>
+        </tr>
+        <tr>
+            <td>Arnaldo Urizar</td>
+            <td>>¡Estoy emocionado de anunciar el lanzamiento de mi nuevo proyecto! Después de meses de trabajo duro,
+                finalmente está listo para el mundo. ¡Espero que les guste tanto como a mí!</td>
+            <td>11 de junio, 2024</td>
+        </tr>
+    </table>
+    <textarea class="textarea-social" placeholder="Escribe tu publicación aquí"></textarea>
+    <img src="./img/imagen_redsocial.webp" alt="Descripción de la imagen" class="img img-social">
+    <button class="btn btn-engineer">Enviar</button>
+    <select class="select select-engineer">
+        <option value="opcion1">Proyecto A</option>
+        <option value="opcion2">Proyecto B</option>
+        <option value="opcion3">Proyecto C</option>
+    </select>
+    <table class="table table-engineer">
+        <tr>
+            <th>Nombre</th>
+            <th>Publicación</th>
+            <th>Fecha</th>
+        </tr>
+        <tr>
+            <td>Lautaro Cabrera</td>
+            <td>Hoy tuvimos una exitosa prueba del nuevo sistema hidráulico en el sitio de construcción. Los resultados
+                fueron mejores de lo esperado y estamos en buen camino para finalizar el proyecto a tiempo.</td>
+            <td>12 de junio, 2024</td>
+        </tr>
+        <tr>
+            <td>Arnaldo Urizar</td>
+            <td>Se ha lanzado la nueva versión de nuestro software de análisis estructural. Ahora incluye capacidades
+                mejoradas de simulación y una interfaz de usuario más intuitiva.</td>
+            <td>11 de junio, 2024</td>
+        </tr>
+    </table>
+    <textarea class="textarea textarea-engineer" placeholder="Escribe tu publicación aquí"></textarea>
+    <img src="/img/imagen_ingenieria.jpg" alt="Descripción de la imagen" class="img img-engineer">
+    <button class="btn btn-health">Enviar</button>
+    <select class="select select-health">
+        <option value="opcion1">Consulta General</option>
+        <option value="opcion2">Pediatría</option>
+        <option value="opcion3">Cardiología</option>
+    </select>
+    <table class="table table-health">
+        <tr>
+            <th>ID del Paciente</th>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Diagnóstico</th>
+            <th>Fecha de Ingreso</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Juan Pérez</td>
+            <td>45</td>
+            <td>Hipertensión</td>
+            <td>15 de junio, 2024</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Maria López</td>
+            <td>32</td>
+            <td>Diabetes Tipo 2</td>
+            <td>10 de junio, 2024</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Carlos García</td>
+            <td>28</td>
+            <td>Asma</td>
+            <td>20 de mayo, 2024</td>
+        </tr>
+    </table>
+    <form>
+        <label for="patient-notes">Notas del Médico:</label>
+        <textarea id="patient-notes" class="textarea textarea-health" placeholder="Escribe las notas aquí"></textarea>
+        <button class="btn btn-health">Guardar</button>
+      </form>
+    <img src="/img/imagen_salud.jpg" alt="Descripción de la imagen" class="img img-health">
+</body>
+
+</html>
